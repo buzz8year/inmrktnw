@@ -1,0 +1,86 @@
+<svg viewBox="0 -200 720 660" xmlns="http://www.w3.org/2000/svg">
+
+    <g fill="none" stroke="none">
+
+        <!-- <path class="graph-bg"  fill="rgba(30,30,30,.45)" d="M 0,-174 L 0,248 L 55,245 L 110,260 L 165,238 L 220,200 L 275,195 L 330,180 L 390,200 L 440,190 L 500,200 L 555,155 L 610,140 L 665,110 L 720,100 L 720,-174" fill-rule="evenodd"></path> -->
+        <!-- L 520,-165 L 360,-135 L 200,-165 -->
+
+        <path class="graph-bg"  fill="rgba(30,30,30,.0)" d="M 0,248 L 55,245 L 110,260 L 165,238 L 220,200 L 275,195 L 288,194" fill-rule="evenodd" transform="translate(0, -50)" stroke="rgba(255,255,255,1)" stroke-width="1"></path>
+        <path class="graph-bg"  fill="rgba(30,30,30,.0)" d="M 435,194 L485,195 L 555,155 L 610,140 L 665,110 L 720,100" fill-rule="evenodd" transform="translate(0, -50)" stroke="rgba(255,255,255,1)" stroke-width="1"></path>
+
+        <path class="graph-bg" transform="translate(0,5)" fill="rgba(30,30,30,.0)" d="M 8,248 L 55,245 L 110,260 L 165,238 L 220,200 L 275,195 L 330,180 L 390,200 L 440,190 L 500,200 L 555,155 L 610,140 L 665,110 L 715,100" fill-rule="evenodd" stroke="rgba(255,255,255,1)" stroke-width="1" stroke-dasharray="28px 6px"></path>
+        <!-- <path class="graph-bg"  fill="rgba(30,30,30,.0)" d="M 0,248 L 55,245 L 110,260 L 165,238 L 220,200 L 275,195 L 330,180 L 390,200 L 440,190 L 500,200 L 555,155 L 610,140 L 665,110 L 720,100" fill-rule="evenodd" transform="translate(0, 90)" stroke="rgba(255,255,255,1)" stroke-width="1px"></path>
+        <path class="graph-bg"  fill="rgba(30,30,30,.0)" d="M 0,248 L 55,245 L 110,260 L 165,238 L 220,200 L 275,195 L 330,180 L 390,200 L 440,190 L 500,200 L 555,155 L 610,140 L 665,110 L 720,100" fill-rule="evenodd" transform="translate(0, 105)" stroke="rgba(255,255,255,1)" stroke-width="1px"></path>
+        <path class="graph-bg"  fill="rgba(30,30,30,.0)" d="M 0,248 L 55,245 L 110,260 L 165,238 L 220,200 L 275,195 L 330,180 L 390,200 L 440,190 L 500,200 L 555,155 L 610,140 L 665,110 L 720,100" fill-rule="evenodd" transform="translate(0, 120)" stroke="rgba(255,255,255,1)" stroke-width="1px"></path>
+        <path class="graph-bg"  fill="rgba(30,30,30,.0)" d="M 0,248 L 55,245 L 110,260 L 165,238 L 220,200 L 275,195 L 330,180 L 390,200 L 440,190 L 500,200 L 555,155 L 610,140 L 665,110 L 720,100" fill-rule="evenodd" transform="translate(0, 135)" stroke="rgba(255,255,255,1)" stroke-width="1px"></path>
+        <path class="graph-bg"  fill="rgba(30,30,30,.0)" d="M 0,248 L 55,245 L 110,260 L 165,238 L 220,200 L 275,195 L 330,180 L 390,200 L 440,190 L 500,200 L 555,155 L 610,140 L 665,110 L 720,100" fill-rule="evenodd" transform="translate(0, 150)" stroke="rgba(255,255,255,1)" stroke-width="1px"></path>
+        <path class="graph-bg"  fill="rgba(30,30,30,.0)" d="M 0,248 L 55,245 L 110,260 L 165,238 L 220,200 L 275,195 L 330,180 L 390,200 L 440,190 L 500,200 L 555,155 L 610,140 L 665,110 L 720,100" fill-rule="evenodd" transform="translate(0, 165)" stroke="rgba(255,255,255,1)" stroke-width="1px"></path>
+        <path class="graph-bg"  fill="rgba(30,30,30,.0)" d="M 0,248 L 55,245 L 110,260 L 165,238 L 220,200 L 275,195 L 330,180 L 390,200 L 440,190 L 500,200 L 555,155 L 610,140 L 665,110 L 720,100" fill-rule="evenodd" transform="translate(0, 180)" stroke="rgba(255,255,255,1)" stroke-width="1px"></path> -->
+
+
+        <!-- rgba(50,165,145,0.8) -->
+        <!-- <path class="graph-bg" transform="translate(0, 40)" fill="rgba(255,255,255,0.6)" d="M 0,450 L 0,255.5 L 55,245 L 110,255 L 165,238 L 222,200 L 275,195 L 329.5,180 L 389.5,195 L 440,190 L 500,195 L 557,154.5 L 612,139.5 L 667,109.5 L 720,105 L 720,450
+            Z M 311,285 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0
+            Z M 361,285 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0
+            Z M 411,285 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0
+
+        "></path> -->
+
+        <!-- Z M 29,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 49,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 69,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 89,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 109,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 129,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 149,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 169,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 189,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 209,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 229,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 249,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 269,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 289,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 309,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 329,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 349,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 369,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 389,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 409,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 429,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 449,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 469,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 489,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 509,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 529,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 549,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 569,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 589,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 609,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 629,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 649,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 669,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0
+        Z M 689,310 a 1,1 0 1,0 2,0 a 1,1 0 1,0 -2,0 -->
+
+        <!--  -->
+
+    </g>
+
+    <!-- rgba(50,165,145,1) -->
+    <g fill-rule="even-odd" transform="translate(0, 60)" stroke-width="0" stroke="rgba(80,200,180,.8)" fill="rgba(255,255,255,1)">
+        <circle r="1.75" cx="18" cy="245"></circle>
+        <circle r="1.75" cx="67" cy="247"></circle>
+        <circle r="1.25" cx="110" cy="260"></circle>
+        <circle r="1.75" cx="165" cy="237.5"></circle>
+        <circle r="2.25" cx="220" cy="200"></circle>
+        <circle r="2.75" cx="275" cy="194.5"></circle>
+        <circle r="3.25" cx="330" cy="180"></circle>
+        <circle r="2.5" cx="390" cy="200"></circle>
+        <circle r="2" cx="440" cy="190"></circle>
+        <circle r="2.5" cx="500" cy="199.5"></circle>
+        <circle r="2.75" cx="553" cy="156"></circle>
+        <circle r="3.25" cx="608" cy="140"></circle>
+        <circle r="3.5" cx="663" cy="111"></circle>
+        <circle r="3.75" cx="710" cy="100"></circle>
+    </g>
+
+</svg>

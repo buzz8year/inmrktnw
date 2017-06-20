@@ -1,0 +1,32 @@
+<svg width="480" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <style>
+    .i {
+        <!-- stroke: rgba(180, 160, 100, 1); -->
+        stroke: rgba(255,255,255,.15);
+        <!-- stroke: #444; -->
+        stroke-width: 6;
+    }
+    </style>
+
+    <defs>
+        <g id="dmt">
+            <title>DMT</title>
+
+            <circle id="o" fill="none" r="10" cy="211" cx="145"/>
+
+            <use x="255" y="-117" xlink:href="#o"/>
+
+            <path fill="none" d="m219.45,129.48103l-7.2,69l-49.5,10.5m-6.6,-107.7l-21.3,-66l-67.8,-14.4l-46.5,51.6l21.3,66l67.8,14.4m-79.2,-79.5l18.9,58.5m19.5,-101.4l60.3,12.9m-23.4,100.5l41.1,-45.6m-37.2,54.6l46.5,-51.6m-46.5,51.6l23.1,39.6m23.4,-91.2l63.3,28.2m-15.6,62.1l6,-57m189.6,-60l0,-48.9m60,103.8l-41.4,-24m-37.2,0l-41.4,24l-60,-34.5l-60,34.5"/>
+
+            <line y2="197.582805" x2="135.65" y1="153.5" x1="110.013608"/>
+        </g>
+    </defs>
+
+    <g>
+        <use x="0" y="0" xlink:href="#dmt" class="i"/>
+        <use x="0" y="0" xlink:href="#dmt" class="i"/>
+        <!-- <use x="0.1" y="0.1" xlink:href="#dmt" class="i"/> -->
+    </g>
+
+</svg>

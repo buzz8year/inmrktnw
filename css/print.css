@@ -1,0 +1,259 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+    display:block
+}
+audio,canvas,video {
+    display:inline-block
+}
+audio:not([controls]) {
+    display:none;height:0
+}
+abbr[title] {
+    border-bottom:1px dotted
+}
+dfn {
+    font-style:italic
+}
+hr {
+    box-sizing:content-box;height:0;margin:0;padding:0;display:none
+}
+mark {
+    background:#ff0;color:#000
+}
+code,kbd,pre,samp {
+    font-family:monospace, serif;font-size:1em
+}
+pre {
+    white-space:pre-wrap
+}
+q {
+    quotes:"\201C" "\201D" "\2018" "\2019"
+}
+sub,sup {
+    font-size:75%;line-height:0;position:relative;vertical-align:baseline
+}
+sup {
+    top:-0.5em
+}
+sub {
+    bottom:-0.25em
+}
+figure {
+    margin:0
+}
+fieldset {
+    border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em
+}
+legend {
+    border:0;padding:0
+}
+button,input {
+    line-height:normal
+}
+button,select {
+    text-transform:none
+}
+textarea {
+    overflow:auto;vertical-align:top
+}
+table {
+    border-collapse:collapse;border-spacing:0
+}
+p {
+    margin:1em 0;
+    font-size: 18px;
+}
+p:first-child {
+    margin-top:0
+}
+p:last-child {
+    margin-bottom:0
+}
+
+.content {
+    text-align:left;margin:auto;overflow:hidden;max-width:64%;
+    padding-top: 5vw;
+    position: relative;
+}
+
+.content > div , .content > h2, .content > table {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-shadow: none;
+    color:#444!important;
+}
+
+.content > div.right-wrap * {
+    /*color:#555!important;*/
+}
+
+.content > div h2, .content > table h3 {
+    font-size: 24px!important;
+    color:#444!important;
+    text-shadow: none;
+}
+
+.content td > div {
+    margin-bottom: 30px;
+}
+
+.right_box {
+    float:right;clear:right
+}
+.right_box .salary {
+    font-size:16px;font-weight:bold
+}
+.right_box .work_state {
+    color:#444
+}
+.summary {
+    border:0;overflow:hidden
+}
+.summary td {
+    border:0;padding:0
+}
+.summary .avatar {
+    float:right;margin-bottom:20px
+}
+.summary .avatar img {
+    display:block;max-width:300px
+}
+.summary .full_name {
+    font-size:25px;font-weight:bold
+}
+.summary .resume_headline {
+    margin-top:2px;line-height:19px;color:#444;max-width:400px
+}
+.summary h3 {
+    margin:10px 0 0;padding:0;font-size:14px;font-weight:bold;color:#444
+}
+.summary .contact,.summary p {
+    margin:3px 0 0;color:#444
+}
+.summary .contact b,.summary p b {
+    color:#444;font-weight:normal
+}
+.subtitle {
+    margin:0;padding: 0;font-size:19px;border-bottom:1px solid #444
+}
+.subtitle.sub-skill {
+    border: none;
+}
+.skills {
+    margin:0;padding:0;font-size: 17pxXS
+}
+.experiences {
+    border:0;width:100%
+}
+.experiences td {
+    color:#444;border:0;vertical-align:top;padding:15px 0
+}
+.experiences tr:first-child td {
+    padding-top:0
+}
+.experiences tr:last-child td {
+    padding-top:0
+}
+.experiences .experience .info h3 {
+    margin:0;padding:0;font-size:17px;font-weight:bold;color:#444;
+}
+.experiences .experience .info h4 {
+    margin:10px 0 5px;padding:0;font-size:14px;font-weight:bold
+}
+.experiences .experience .info .short_geo,.experiences .experience .info .faculty,.experiences .experience .info .position,.experiences .experience .info p {
+    margin:3px 0 0;color:#444
+}
+.experiences .experience .info .text {
+    line-height:1.2em
+}
+.experiences .experience .info .text p {
+    margin:0;color:#444
+}
+.experiences .experience .info .text p b {
+    font-weight:bold
+}
+.educations {
+    border:0;width:100%
+}
+.educations td {
+    border:0;vertical-align:top;padding:15px 0
+}
+.educations tr:first-child td {
+    padding-top:0
+}
+.educations tr:last-child td {
+    padding-top:0
+}
+.educations .education .info h3 {
+    margin:0;padding:0;font-size:17px;font-weight:bold
+}
+.educations .education .info h4 {
+    margin:10px 0 5px;padding:0;font-size:14px;font-weight:bold
+}
+.educations .education .info .short_geo,.educations .education .info .faculty,.educations .education .info .position,.educations .education .info p {
+    margin:3px 0 0;color:#444
+}
+.educations .education .info .text {
+    line-height:1.2em
+}
+.educations .education .info .text p {
+    margin:0;color:#444
+}
+.educations .education .info .text p b {
+    font-weight:bold
+}
+.about_text {
+    font-size:18px;
+    font-weight: 300;
+}
+.about_text p {
+    margin:1em 0 !important;line-height:1.2em;color:#444
+}
+.opinions .opinion+.opinion {
+    margin-top:25px
+}
+.opinions .opinion {
+    margin:0;padding:0;font-size:14px
+}
+.opinions .opinion .username {
+    margin:0;font-size:17px;font-weight:bold
+}
+.opinions .opinion .username a {
+    color:black;text-decoration:none
+}
+.opinions .opinion .specialization {
+    margin:0;color:#999;font-size:14px
+}
+.opinions .opinion .about_text {
+    margin:0em 0;font-size:14px;line-height:1.2em
+}
+.opinions .opinion .created_at {
+    margin:0;font-size:14px;color:#999
+}
+.about_vacancy .title {
+    margin:0;font-weight:bold;font-size:16px;color:#444
+}
+.about_vacancy .meta {
+    margin-top:3px;font-size:14px;color:#444
+}
+.about_vacancy .meta .label {
+    color:#999
+}
+.response {
+    margin-top:20px
+}
+.response .title {
+    margin:0;font-weight:bold;font-size:15px;color:#444
+}
+.response .text {
+    margin-top:3px;font-size:14px;line-height:20px;color:#444
+}
+.footer span {
+    display:inline-block;vertical-align:middle
+}
+.footer .logo {
+    display:inline-block;vertical-align:middle;width:67px;height:14px
+}
+.footer .logo path {
+    fill:#444
+}
