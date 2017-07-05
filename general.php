@@ -32,7 +32,7 @@
 
             header('Content-Type: text/javascript; charset=utf8');
 
-    		echo $callback . '(' . $jsonResponse . ')';
+    		echo $callback . '(' . json_encode($json) . ')';
 
         } else {
 
