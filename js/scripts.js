@@ -199,13 +199,10 @@ function thumb_handler(data) {
 
 function requestServerCall(cls, img) {
 
-    alert('xxx');
-
-
     var head = document.head,
         script = document.createElement('script');
 
-    script.src = 'http://inmrkt/general.php?do=load_icons&callback=thumb_handler&class=' + cls + '&img=' + img;
+    script.src = 'general.php?do=load_icons&callback=thumb_handler&class=' + cls + '&img=' + img;
 
     head.appendChild(script);
     // head.removeChild(script);
