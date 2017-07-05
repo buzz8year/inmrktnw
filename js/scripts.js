@@ -199,6 +199,9 @@ function thumb_handler(data) {
 
 function requestServerCall(cls, img) {
 
+    alert('xxx');
+
+
     var head = document.head,
         script = document.createElement('script');
 
