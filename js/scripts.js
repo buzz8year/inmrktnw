@@ -178,6 +178,8 @@ function submitForm(contactform) {
 
 function thumb_handler(data) {
 
+    alert('!!!');
+
     var icons = document.querySelectorAll('.messenger-wrap a span');
 
     for (var i = 0; i < icons.length; i++) {
