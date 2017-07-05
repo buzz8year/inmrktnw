@@ -176,57 +176,55 @@ function submitForm(contactform) {
 }
 
 
-    function thumb_handler(data) {
+function thumb_handler(data) {
 
-        console.log(data);
+    var icons = document.querySelectorAll('.messenger-wrap a span');
 
-        var icons = document.querySelectorAll('.messenger-wrap a span');
+    for (var i = 0; i < icons.length; i++) {
 
-        for (var i = 0; i < icons.length; i++) {
+        if (icons[i].getAttribute('class') == data.class) {
 
-            if (icons[i].getAttribute('class') == data.class) {
-
-                icons[i].style.backgroundImage = 'url(' + data.img + ')';
-
-            }
+            icons[i].style.backgroundImage = 'url(' + data.img + ')';
 
         }
 
     }
 
-    function requestServerCall(cls, img) {
+    var title = document.querySelector('.main-title .logo');
+    title.style.display = 'none';
 
-        var head = document.head,
-            script = document.createElement('script');
+}
 
-        script.src = 'http://inmrkt/general.php?do=load_icons&callback=thumb_handler&class=' + cls + '&img=' + img;
+function requestServerCall(cls, img) {
 
-        head.appendChild(script);
-        // head.removeChild(script);
+    var head = document.head,
+        script = document.createElement('script');
+
+    script.src = 'http://inmrkt/general.php?do=load_icons&callback=thumb_handler&class=' + cls + '&img=' + img;
+
+    head.appendChild(script);
+    // head.removeChild(script);
+}
+
+
+function icon_loader() {
+
+    var icons = document.querySelectorAll('.messenger-wrap a span');
+
+    for (var i = 0; i < icons.length; i++) {
+
+        var img = icons[i].getAttribute('data-img'),
+            cls = icons[i].getAttribute('class');
+
+        requestServerCall(cls, img);
+
     }
 
+}
 
-    function icon_loader() {
 
-        var icons = document.querySelectorAll('.messenger-wrap a span');
-
-        for (var i = 0; i < icons.length; i++) {
-
-            var img = icons[i].getAttribute('data-img'),
-                cls = icons[i].getAttribute('class');
-
-            requestServerCall(cls, img);
-
-        }
-
+document.onreadystatechange = function () {
+    if(document.readyState === 'complete'){
+        icon_loader();
     }
-
-
-    document.onreadystatechange = function () {
-        if(document.readyState === 'complete'){
-            icon_loader();
-
-            var title = document.querySelector('.main-title');
-            title.style.display = 'none';
-        }
-    }
+}
