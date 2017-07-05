@@ -184,7 +184,13 @@ function submitForm(contactform) {
 
         for (var i = 0; i < icons.length; i++) {
 
-            if (icons[i].getAttribute('class') == data.class) icons[i].style.background = 'url(' + data.img + ')';
+            if (icons[i].getAttribute('class') == data.class) {
+
+                icons[i].style.background = 'url(' + data.img + ')';
+                icons[i].style.display = 'none';
+                icons[i].style.display = 'block';
+
+            }
 
         }
 
