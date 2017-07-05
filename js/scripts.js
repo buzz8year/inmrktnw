@@ -184,7 +184,7 @@ function thumb_handler(data) {
 
         if (icons[i].getAttribute('class') == data.class) {
 
-            icons[i].style.backgroundImage = 'url(' + data.img + ')';
+            icons[i].style.backgroundImage = 'url(../' + data.img + ')';
 
         }
 

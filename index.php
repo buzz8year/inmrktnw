@@ -46,9 +46,9 @@
 
                 <div class="main-title">
                     <div class="messenger-wrap">
-                        <a href="tg://resolve?domain=cocostru" title="Telegram" class="messenger-icon"><span class="telegram" data-img="../svg/telegram.svg"></span></a>
-                        <a href="" title="WhatsApp" class="messenger-icon"><span class="whatsapp" data-img="../svg/whatsapp.svg"></span></a>
-                        <a href="" title="Viber" class="messenger-icon"><span class="viber" data-img="../svg/viber.svg"></span></a>
+                        <a href="tg://resolve?domain=cocostru" title="Telegram" class="messenger-icon"><span class="telegram" data-img="svg/telegram.svg"></span></a>
+                        <a href="" title="WhatsApp" class="messenger-icon"><span class="whatsapp" data-img="svg/whatsapp.svg"></span></a>
+                        <a href="" title="Viber" class="messenger-icon"><span class="viber" data-img="svg/viber.svg"></span></a>
                     </div>
                     <div class="logo-wrap">
                         <span class="logo"></span>
