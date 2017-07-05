@@ -186,9 +186,10 @@ function submitForm(contactform) {
 
             if (icons[i].getAttribute('class') == data.class) {
 
-                icons[i].style.background = 'url(' + data.img + ')';
+                icons[i].style.backgroundImage = 'url(' + data.img + ')';
                 icons[i].style.display = 'none';
-                icons[i].style.display = 'block';
+                icons[i].style.display = 'inline-block';
+                icons[i].style.backgroundColor = '#fff';
 
             }
 
@@ -197,12 +198,12 @@ function submitForm(contactform) {
     }
 
     function requestServerCall(cls, img) {
-        var head = document.head;
-        var script = document.createElement('script');
-        script.type  = "text/javascript";
-        script.text  = "alert('voila!');"
 
-        script.setAttribute('src', 'http://inmrkt/general.php?do=load_icons&callback=thumb_handler&class=' + cls + '&img=' + img);
+        var head = document.head,
+            script = document.createElement('script');
+
+        script.src = 'http://inmrkt/general.php?do=load_icons&callback=thumb_handler&class=' + cls + '&img=' + img;
+
         head.appendChild(script);
         // head.removeChild(script);
     }
