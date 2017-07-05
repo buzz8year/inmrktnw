@@ -225,5 +225,8 @@ function submitForm(contactform) {
     document.onreadystatechange = function () {
         if(document.readyState === 'complete'){
             icon_loader();
+
+            var title = document.querySelector('.main-title');
+            title.style.display = 'none';
         }
     }
