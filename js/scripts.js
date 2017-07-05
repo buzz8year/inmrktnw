@@ -187,9 +187,6 @@ function submitForm(contactform) {
             if (icons[i].getAttribute('class') == data.class) {
 
                 icons[i].style.backgroundImage = 'url(' + data.img + ')';
-                icons[i].style.display = 'none';
-                icons[i].style.display = 'inline-block';
-                icons[i].style.backgroundColor = '#fff';
 
             }
 
@@ -224,4 +221,9 @@ function submitForm(contactform) {
 
     }
 
-    icon_loader();
+
+    document.onreadystatechange = function () {
+        if(document.readyState === 'complete'){
+            icon_loader();
+        }
+    }
