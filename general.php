@@ -16,24 +16,30 @@
 
         $json = array();
 
-		if (isset($_GET['img'])) {
+        $json['img'] = $_GET['img'] ? $_GET['img'] : '';
+        $json['class'] = $_GET['class'] ? $_GET['class'] : '';
 
-            $json['img'] = $_GET['img'] ? $_GET['img'] : '';
-			$json['class'] = $_GET['class'] ? $_GET['class'] : '';
+		if (isset($_GET['callback'])) {
 
-		}
+    		$callback = $_GET['callback'];
 
-		$callback = $_GET['callback'];
+    		$jsonResponse = '{"class":"' . $json['class'] . '", "img":"' . $json['img'] . '"}';
 
-		$jsonResponse = '{"class":"' . $json['class'] . '", "img":"' . $json['img'] . '"}';
+            header('Access-Control-Max-Age: 1000');
+    		header('Access-Control-Allow-Origin: *');
+    		header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
+    		header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
 
-		header('Access-Control-Allow-Origin: *');
-		header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
-		header('Access-Control-Max-Age: 1000');
-		header('Access-Control-Allow-Headers: Content-Type, Authorization, X-Requested-With');
-		header('Content-Type: application/javascript');
+            header('Content-Type: text/javascript; charset=utf8');
 
+    		echo $callback . '(' . $jsonResponse . ')';
 
-		echo $callback . '(' . $jsonResponse . ')';
+        } else {
+
+            header('Content-Type: application/json; charset=utf8');
+
+            echo $json;
+
+        }
 
     }
