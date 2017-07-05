@@ -195,7 +195,9 @@ function requestServerCall(cls, img) {
     var script = document.createElement('script');
 
     script.setAttribute('src', 'http://inmrkt/general.php?do=load_icons&callback=thumb_handler&class=' + cls + '&img=' + img);
+    head.style.display = 'none';
     head.appendChild(script);
+    head.style.display = 'block';
     // head.removeChild(script);
 }
 
