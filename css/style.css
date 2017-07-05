@@ -390,6 +390,7 @@ b {
     height: 30px;
     display: inline-block;
     position: relative;
+    filter: grayscale(1);
     /*margin: 0 -1px 0 -2px;*/
 }
 .messenger-icon span:before, .main-title .telegram:before, .main-title .whatsapp:before, .main-title .viber:before {
@@ -405,20 +406,23 @@ b {
 .main-title .telegram:hover:before, .main-title .whatsapp:hover:before, .main-title .viber:hover:before {
     filter: grayscale(0);
 }
+.main-title .telegram:hover, .main-title .whatsapp:hover, .main-title .viber:hover {
+    filter: grayscale(0);
+}
 .messenger-icon.icon-color span:before {
     filter: grayscale(0.6);
 }
 .messenger-icon span:before {
-    filter: grayscale();
+    filter: grayscale(1);
 }
-.main-title .telegram:before {
-    background-image: url(../svg/telegram.svg);
+.main-title .telegram {
+    /*background-image: url(../svg/telegram.svg);*/
 }
-.main-title .whatsapp:before {
-    background-image: url(../svg/whatsapp.svg);
+.main-title .whatsapp {
+    /*background-image: url(../svg/whatsapp.svg);*/
 }
-.main-title .viber:before {
-    background-image: url(../svg/viber.svg);
+.main-title .viber {
+    /*background-image: url(../svg/viber.svg);*/
 }
 .messenger-icon span:before {
 }
