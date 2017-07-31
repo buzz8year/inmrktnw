@@ -90,7 +90,7 @@
 
                 <div class="hint-wrap">
                     <div class="hint-name">
-                        <span>In case you just discovered we've moved, your <br/>project subdomain name is same as it was &nbsp;&#8211;&nbsp; <br/>OLDNAME . INMRKT . <span class="hint-domain" style="">ML</span></span>
+                        <span>In case you just discovered we've moved, your <br/>project subdomain name is same as it was &nbsp;&#8211;&nbsp; <br/>OLDNAME . INMRKT . <span class="hint-domain">ML</span></span>
                     </div>
                     <div class="hint-just">
                         <!-- <br class="mob-present"/><br class="mob-present"/> -->

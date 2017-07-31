@@ -126,14 +126,14 @@
   }
 }
 .hamburglar.is-open .path {
-  -webkit-animation: dash-in 0.7s linear normal;
-          animation: dash-in 0.7s linear normal;
+  -webkit-animation: dash-in .3s linear normal;
+          animation: dash-in .3s linear normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 .hamburglar.is-open .animate-path {
-  -webkit-animation: rotate-in 0.7s linear normal;
-          animation: rotate-in 0.7s linear normal;
+  -webkit-animation: rotate-in .3s linear normal;
+          animation: rotate-in .3s linear normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -145,8 +145,8 @@
           animation-fill-mode: forwards;
 }
 .hamburglar.is-closed .animate-path {
-  -webkit-animation: rotate-out 0.7s linear normal;
-          animation: rotate-out 0.7s linear normal;
+  -webkit-animation: rotate-out .3s linear normal;
+          animation: rotate-out .3s linear normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -255,31 +255,31 @@
 }
 
 .hamburglar.is-open .burger-bun-top {
-  -webkit-animation: bun-top-out 0.7s linear normal;
-          animation: bun-top-out 0.7s linear normal;
+  -webkit-animation: bun-top-out .3s linear normal;
+          animation: bun-top-out .3s linear normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  background: #555;
+  background: #aaa;
   /*background: rgba(255,255,255,0.15);*/
 }
 .hamburglar.is-open .burger-bun-bot {
-  -webkit-animation: bun-bot-out 0.7s linear normal;
-          animation: bun-bot-out 0.7s linear normal;
+  -webkit-animation: bun-bot-out .3s linear normal;
+          animation: bun-bot-out .3s linear normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  background: #555;
+  background: #aaa;
   /*background: rgba(255,255,255,0.15);*/
 }
 
 .hamburglar.is-closed .burger-bun-top {
-  -webkit-animation: bun-top-in 0.7s linear normal;
-          animation: bun-top-in 0.7s linear normal;
+  -webkit-animation: bun-top-in .3s linear normal;
+          animation: bun-top-in .3s linear normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 .hamburglar.is-closed .burger-bun-bot {
-  -webkit-animation: bun-bot-in 0.7s linear normal;
-          animation: bun-bot-in 0.7s linear normal;
+  -webkit-animation: bun-bot-in .3s linear normal;
+          animation: bun-bot-in .3s linear normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -482,15 +482,15 @@
   }
 }
 .hamburglar.is-open .burger-filling {
-  -webkit-animation: burger-fill-out 0.7s linear normal;
-          animation: burger-fill-out 0.7s linear normal;
+  -webkit-animation: burger-fill-out .3s linear normal;
+          animation: burger-fill-out .3s linear normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
 .hamburglar.is-closed .burger-filling {
-  -webkit-animation: burger-fill-in 0.7s linear normal;
-          animation: burger-fill-in 0.7s linear normal;
+  -webkit-animation: burger-fill-in .3s linear normal;
+          animation: burger-fill-in .3s linear normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
