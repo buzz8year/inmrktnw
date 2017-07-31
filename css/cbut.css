@@ -1,6 +1,7 @@
 #hamburger {
     position: absolute;
-    right: -18px;
+    left: 50%;
+    transform: translate(-50%) scale(.75);
     top: 61vh;
     cursor: pointer;
     /*transition: .4s opacity;*/

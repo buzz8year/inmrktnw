@@ -8,7 +8,7 @@
     <g>
         <title>Layer 1</title>
         <g id="svg_1" transform="translate(1,1)">
-            <path stroke="#888" stroke-dasharray="44.5, 4" stroke-width="1" fill="#fff" d=" m 42,0 l -24,0 c -9.925,0 -18,8.075 -18,18 s 8.075,18 18,18 l 24,0 c 9.925,0 18,-8.075 18,-18 s -8.075,-18 -18,-18 z"/>
+            <path stroke="#888" stroke-dasharray="44.5, 4" stroke-width="1" fill="transparent" d=" m 42,0 l -24,0 c -9.925,0 -18,8.075 -18,18 s 8.075,18 18,18 l 24,0 c 9.925,0 18,-8.075 18,-18 s -8.075,-18 -18,-18 z"/>
 
             <path stroke="#fff" stroke-width="1"  fill="#888" d=" m 18,5.002371 c -7.168,0 -13,5.832 -13,13 s 5.832,13 13,13 s 13,-5.832 13,-13 s -5.832,-13 -13,-13 z  m 0,24 c -6.065,0 -11,-4.935 -11,-11 s 4.935,-11 11,-11 s 11,4.935 11,11 s -4.935,11 -11,11 z "/>
 
