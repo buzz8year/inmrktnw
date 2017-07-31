@@ -16,7 +16,7 @@
     <body>
         <div class="screen-one">
 
-            <div class="bg-filter top-filter f"></div>
+            <!-- <div class="bg-filter top-filter f"></div> -->
             <div class="wrap-filter"></div>
 
             <!-- <div class="graph g"></div> -->
@@ -90,7 +90,7 @@
 
                 <div class="hint-wrap">
                     <div class="hint-name">
-                        <span>In case you just discovered we've moved, your <br/>project subdomain name is same as it was &nbsp;&#8211;&nbsp; <br/>OLDNAME . INMRKT . <span class="hint-domain">ML</span></span>
+                        <span>In case you just discovered we've moved, your <br/>project subdomain name is same as it was &nbsp;&#8211;&nbsp; <br/><nobr>OLDNAME . INMRKT . <span class="hint-domain">ML</span></nobr></span>
                     </div>
                     <div class="hint-just">
                         <!-- <br class="mob-present"/><br class="mob-present"/> -->

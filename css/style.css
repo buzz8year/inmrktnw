@@ -285,9 +285,9 @@ b {
     opacity: .03;
 }
 .bg-filter:before {
-    /*display: none;*/
+    display: none;
     content: '';
-    /*background: url(../imgs/reg.jpg) no-repeat 47% center;*/
+    background: url(../imgs/reg.jpg) no-repeat 47% center;
     transition: .5s ease-in-out filter;
     filter: inherit;
     filter: brightness(1) hue-rotate(0deg) grayscale(0) blur(0);
@@ -485,7 +485,7 @@ b {
     /*display: flex;*/
     opacity: 1;
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
     left: 0;
     z-index: 1;
     text-align: left;
@@ -956,11 +956,11 @@ textarea:focus:-ms-input-placeholder {
 
 
 @media only screen
-and (min-device-width : 0)
-and (max-device-width : 1024px)
+and (min-width : 0)
+and (max-width : 1360px)
 and (orientation : landscape), only screen
-and (min-device-width : 0)
-and (max-device-width : 1024px)
+and (min-width : 0)
+and (max-width : 1360px)
 and (orientation : portrait) {
     body {
         /*font-weight: 400;*/
@@ -1006,6 +1006,7 @@ and (orientation : portrait) {
         margin-bottom: 75px;
         width: 100%;
         text-align: center;
+        color: #888;
     }
     .hint-label {
         box-shadow: inset 0 0 0 3px #fff;
@@ -1031,6 +1032,7 @@ and (orientation : portrait) {
     .info-wrap, .wrap-filter, .wrap-filter.w {
         background: transparent;
         overflow: visible;
+        color: #888;
     }
     .info-wrap .info-text {
         width: 100%;
@@ -1047,11 +1049,14 @@ and (orientation : portrait) {
     }
     .hint-wrap .hint-name {
         font-size: 19px;
+        margin-bottom: 50px;
     }
     .hint-wrap div.hint-just {
         min-width: 0;
         float: none;
         text-align: center;
+    }
+    .hint-wrap div.hint-just span {
     }
     .info-wrap .button-wrap {
         width: 100%;
@@ -1067,7 +1072,8 @@ and (orientation : portrait) {
         color: #fff;
         border-radius: 40px;
         /*padding: 12px 30px;*/
-        background: rgba(0,150,130,1);
+        /*background: rgba(0,150,130,1);*/
+        background: linear-gradient(45deg, rgba(55,150,225,.95) 30%, #00c2c9);
     }
     .button-wrap span:before {
         box-shadow: inset 3px 0 0 #fff, inset -3px 0 0 #fff, inset 0 3px 0 #fff;
