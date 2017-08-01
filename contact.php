@@ -20,8 +20,8 @@ if (!empty($_POST['email']) && !empty($_POST['message'])) {
     $subject_for_sender = 'Your message has been recieved';
     $message_for_sender = 'Here is a copy of your message \n\n' . $_POST['message'];
 
-    mail($to_inmrkt, $subject, $message, $headers);
     mail($to_gmail, $subject, $message, $headers);
+    // mail($to_inmrkt, $subject, $message, $headers);
 
     mail($from, $subject_for_sender, $message_for_sender, $headers_for_sender);
 
