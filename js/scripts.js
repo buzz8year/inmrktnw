@@ -139,7 +139,10 @@ function submitForm(contactform) {
         if (xhr.readyState === 4 && xhr.status === 200) {
             var json = JSON.parse(xhr.responseText);
 
+            console.log(json);
+
             if (json['error']) {
+
 
                 if (json['error']['error_email']) {
                     inmail.classList.add('error');
