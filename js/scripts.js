@@ -88,9 +88,9 @@ function openForm() {
     info.classList.add('o');
     hint.classList.add('o');
 
-    // for (var i = 0; i < messicons.length; i++) {
-    //     messicons[i].classList.add('icon-color');
-    // }
+    for (var i = 0; i < messicons.length; i++) {
+        messicons[i].classList.add('icon-color');
+    }
 
     // setTimeout(function(){
         wrapfilter.classList.add('w');
@@ -102,9 +102,9 @@ function openForm() {
 
 function closeForm() {
 
-    // for (var i = 0; i < messicons.length; i++) {
-    //     messicons[i].classList.remove('icon-color');
-    // }
+    for (var i = 0; i < messicons.length; i++) {
+        messicons[i].classList.remove('icon-color');
+    }
 
     wrapfilter.classList.remove('w');
 
@@ -118,6 +118,11 @@ function closeForm() {
             cform.classList.remove('m');
 
         // }, 1000);
+
+        inmail.classList.remove('error');
+
+        inmess.classList.remove('error');
+
 
     }
 
@@ -168,6 +173,10 @@ function submitForm(contactform) {
                         thank.classList.remove('thank-show');
                         hint.classList.remove('o');
                         info.classList.remove('o');
+
+                        for (var i = 0; i < messicons.length; i++) {
+                            messicons[i].classList.remove('icon-color');
+                        }
                     }
                 });
 

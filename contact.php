@@ -40,11 +40,11 @@ if (!empty($_POST['email']) && !empty($_POST['message'])) {
 } else {
 
     if (empty($_POST['email'])) {
-        $json['error']['error_email'] = 'Please, enter your E-mail';
+        $json['error']['error_email'] = 'Please, enter your E-mail *';
     }
 
     if (empty($_POST['message'])) {
-        $json['error']['error_message'] = 'Please, write a couple of words';
+        $json['error']['error_message'] = 'Please, write a couple of words *';
     }
 
     $json['response'] = 'Data was not posted.';

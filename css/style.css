@@ -8,14 +8,15 @@ body {
     font-weight: 300;
     font-size: 27px;
     height: 100%;
-    color: #777;
+    color: #fff;
     padding: 0;
     margin: 0;
-    /*background: #333;*/
+    background: #222;
+    /*background: linear-gradient(45deg, #333 30%, #44444a);*/
 }
 a, a:hover, a:focus {
     text-decoration: none;
-    color: #777;
+    color: #fff;
 }
 b {
     font-weight: 100;
@@ -24,18 +25,18 @@ b {
     position: relative;
     float: none;
     margin: 0 auto;
-    width: 60%;
+    /*width: 100%;*/
     height: 35px;
-    /*background: #333;*/
+    background: #222;
     /*background: rgba(230,175,25,1);*/
-    padding: 3vh 0;
+    padding: 3vh 20%;
     max-width: 1160px;
     display: flex;
     justify-content: space-between;
     /*box-shadow: 0 6px 0 rgba(40,40,0,.1);*/
 }
 .top-wrap div {
-    color: #777;
+    color: #fff;
     display: flex;
     /*text-shadow: -1px -1px 0 rgba(0,0,0,.15);*/
     /*text-shadow: none;*/
@@ -70,7 +71,7 @@ b {
     height: 24px;
     /*top: -2px;*/
     position: relative;
-    color: #777;
+    color: #fff;
     /*font-weight: 300;*/
     font-size: 20px;
     padding: 0 15px 0 35px;
@@ -91,9 +92,13 @@ b {
     width: 30px;
     height: 30px;
     display: inline-block;
+    transition: .2s;
 }
 .top-wrap div.manage a:hover span:before {
     filter: grayscale(0);
+    height: 40px;
+    width: 40px;
+    margin: -5px;
 }
 .footer {
     width: calc(100% + 24px);
@@ -282,25 +287,26 @@ b {
     position: absolute;
 }
 .bg-filter.f.top-filter:before {
-    opacity: .03;
+    /*opacity: .03;*/
 }
 .bg-filter:before {
-    display: none;
+    display: block;
     content: '';
-    background: url(../imgs/reg.jpg) no-repeat 47% center;
+    background: url(../imgs/reg.jpg) no-repeat center;
+    /*background: linear-gradient(45deg, #333 30%, #44444a);*/
     transition: .5s ease-in-out filter;
     filter: inherit;
-    filter: brightness(1) hue-rotate(0deg) grayscale(0) blur(0);
+    filter: grayscale(0) blur(0px);
     background-size: cover;
     will-change: transform;
     background-attachment: fixed;
-    position: absolute;
+    position: fixed;
     /*top: -30%;*/
     /*transition: .5s;*/
     z-index: -1;
-    opacity: .35;
+    opacity: .05;
     height: 100%;
-    width: inherit;
+    width: 110%;
 }
 
 /*.bg-filter.m {
@@ -333,12 +339,12 @@ b {
     vertical-align: bottom;
     text-align: left;
     position: relative;
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: -3;
     width: 100%;
     font-size: 59px;
-    color: #777;
-    margin: 10vh 0 0;
+    color: #fff;
+    margin: 13vh 0 0;
     /*text-shadow: 5px 5px 0 rgba(0,0,0,.0);*/
 }
 .main-title > div {
@@ -357,7 +363,7 @@ b {
     left: 41px;
     margin-top: 0.5px;
     display: block;
-    background-color: #777;
+    background-color: #fff;
     border-radius: 2px;
     height: 12px;
     width: 3px;
@@ -399,6 +405,7 @@ b {
     display: inline-block;
     position: relative;
     filter: grayscale(1);
+    transition: .2s;
     /*margin: 0 -1px 0 -2px;*/
 }
 .messenger-icon span:before, .main-title .telegram:before, .main-title .whatsapp:before, .main-title .viber:before {
@@ -407,8 +414,6 @@ b {
     display: block;
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 30px;
-    width: 30px;
     cursor: pointer;
 }
 .main-title .telegram:hover:before, .main-title .whatsapp:hover:before, .main-title .viber:hover:before {
@@ -416,9 +421,12 @@ b {
 }
 .main-title .telegram:hover, .main-title .whatsapp:hover, .main-title .viber:hover {
     filter: grayscale(0);
+    height: 50px;
+    width: 50px;
+    margin: -10px;
 }
-.messenger-icon.icon-color span:before {
-    filter: grayscale(0.6);
+.messenger-icon.icon-color span {
+    filter: grayscale(0);
 }
 /*.messenger-icon span:before {
     filter: grayscale(1);
@@ -470,10 +478,12 @@ b {
     position: absolute;
     left: 0;
     z-index: -1;
-    text-align: left;
+    text-align: center;
     word-spacing: 5px;
     font-size: 30px;
-    line-height: 40px;
+    line-height: 50px;
+    margin-top: 90px;
+    font-weight: 100;
 }
 .thank-wrap.thank-show {
     z-index: 1;
@@ -534,7 +544,7 @@ b {
     /*left: 20%;*/
     margin-top: 12vh;
     width: 100%;
-    color: #333;
+    color: #fff;
 }
 .hint-wrap > div {
     margin: 0 0 1.5vw;
@@ -764,16 +774,16 @@ b {
 }
 .contact-form textarea, .contact-form input {
     /*background: rgba(65,175,155,.9);*/
-    /*background: rgba(200,200,200,.4);*/
-    background-color: transparent;
+    background: rgba(255,255,255,.05);
+    /*background-color: transparent;*/
     /*box-shadow: inset 0 1px 0 #555;*/
     /*box-shadow: 10px 10px 0 rgba(0,0,0,.05);*/
     /*box-shadow: none;*/
     /*text-shadow: 5px 5px 0 rgba(0,0,0,.2);*/
     border: none;
-    border-top: 1px dashed #aaa;
-    border-bottom: 1px dashed #aaa;
-    color: #777;
+    /*border-top: 1px dashed #aaa;*/
+    /*border-bottom: 1px dashed #aaa;*/
+    color: #fff;
     padding: 40px 20px;
     font-size: 21px;
     font-family: 'titillium web';
@@ -785,10 +795,21 @@ b {
     float: left;
     outline: none;
     transition: ease-in-out .1s padding, ease-in .1s box-shadow;
+
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill {
+  border:none !important;
+  color: #fff!important;
+  -webkit-text-fill-color: #fff !important;
+  -webkit-box-shadow: 0 0 0px 1000px rgba(255,255,255,.05) inset;
+  transition: background-color 5000s ease-in-out 0s;
 }
 .contact-form input.input-phone {
     /*border-bottom: 1px solid #aaa;*/
-    margin-top: -1px;
+    margin-top: 1.5vw;
     /*background: rgba(255,255,255,.08);*/
     /*box-shadow: 10px 10px 0 rgba(0,0,0,.02);*/
 }
@@ -807,13 +828,14 @@ b {
     height: 310px;
 }
 .contact-form input.error, .contact-form textarea.error {
-    background: rgba(100,100,100,.05);
+    /*background: rgba(100,100,100,.05);*/
+    transition: ease-out .8s background-color;
     /*border-top-color: #c44;*/
 }
 .contact-form .error-padd {
     /*box-shadow: inset 0 1px 0 #fff;*/
-    background: rgba(200,100,100,.15)!important;
-    transition: ease-out .2s background-color;
+    background: rgba(200,180,100,.15)!important;
+    transition: ease-out .2s background-color!important;
     /*border-top-color: #c44;*/
     /*padding-left: 30px;*/
 }
@@ -821,7 +843,7 @@ b {
     /*border-top-color: rgba(0, 150, 200, 1);*/
     /*box-shadow: inset 0 1px 0 rgba(255,255,255,1);*/
     /*border-top-color: #fff;*/
-    background-color: transparent;
+    /*background-color: transparent;*/
     /*box-shadow: 10px 10px 0 rgba(0,0,0,.08);*/
     /*background: rgba(255,255,255,.2);*/
     /*background: rgba(80,200,180,.8);*/
@@ -849,25 +871,25 @@ b {
     border: 8px solid transparent;
 }
 ::-webkit-input-placeholder {
-    color: #777;
+    color: #ddd;
     font-family: 'titillium web', sans-serif;
     font-size: 21px;
     font-weight: 100;
 }
 ::-moz-placeholder {
-    color: #777;
+    color: #ddd;
     font-family: 'titillium web', sans-serif;
     font-size: 21px;
     font-weight: 100;
 }
 :-moz-placeholder {
-    color: #777;
+    color: #ddd;
     font-family: 'titillium web', sans-serif;
     font-size: 21px;
     font-weight: 100;
 }
 :-ms-input-placeholder {
-    color: #777;
+    color: #ddd;
     font-family: 'titillium web', sans-serif;
     font-size: 21px;
     font-weight: 100;
@@ -981,7 +1003,7 @@ and (orientation : portrait) {
         /*font-weight: 400;*/
     }
     .top-wrap {
-        padding: 3vh 0 20px;
+        /*padding: 3vh 0 20px;*/
     }
     .top-wrap div.warning {
         margin-left: 26px;
@@ -1021,7 +1043,7 @@ and (orientation : portrait) {
         margin-bottom: 75px;
         width: 100%;
         text-align: center;
-        color: #888;
+        color: #fff;
     }
     .hint-label {
         box-shadow: inset 0 0 0 3px #fff;
@@ -1047,7 +1069,7 @@ and (orientation : portrait) {
     .info-wrap, .wrap-filter, .wrap-filter.w {
         background: transparent;
         overflow: visible;
-        color: #888;
+        color: #fff;
         font-size: 40px;
         line-height: 50px;
     }
@@ -1136,10 +1158,7 @@ and (orientation : portrait) {
     .contact-form textarea, .contact-form input {
         -webkit-appearance: none;
         border: none;
-        border-top: 3px dashed #aaa;
-    }
-    .contact-form textarea {
-        border-bottom: 3px dashed #aaa;
+        margin-top: 1.5vw;
     }
     #hamburger {
         right: auto;

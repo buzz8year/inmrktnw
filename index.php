@@ -19,7 +19,7 @@
     <body>
         <div class="screen-one">
 
-            <!-- <div class="bg-filter top-filter f"></div> -->
+            <div class="bg-filter top-filter f"></div>
             <div class="wrap-filter"></div>
 
             <!-- <div class="graph g"></div> -->
@@ -64,10 +64,10 @@
                 <div class="contact-form">
                     <form action="contact.php" method="POST">
                         <div class="form-left">
-                            <input placeholder="Please, enter your E-mail" class="input-email" name="email"/>
+                            <input placeholder="Please, enter your E-mail *" class="input-email" name="email"/>
                             <input placeholder="Phone number ( optative )" class="input-phone" name="phone"/>
                         </div>
-                        <textarea placeholder="Questions / Concerns" class="text-message" name="message"></textarea>
+                        <textarea placeholder="Questions / Concerns *" class="text-message" name="message"></textarea>
                         <div class="button-wrap">
                             <span class="send-button" onclick="submitForm(document.querySelector('.contact-form form'))">
                                 Send message
@@ -78,7 +78,9 @@
                 </div>
 
                 <div class="thank-wrap">
-                    Message sent, thank you! <br/><br/><br/>We would greatly appreciate it <br/>if you give us about 24 hours to respond.
+                    Message sent, thank you! <br/>
+                    We would greatly appreciate it, <br/>
+                    if you give us 1 working day to respond.
                 </div>
 
                 <div class="info-wrap">
@@ -93,11 +95,21 @@
 
                 <div class="hint-wrap">
                     <div class="hint-name">
-                        <span>In case you just discovered we've moved, your <br/>project subdomain name is same as it was &nbsp;&#8211;&nbsp; <br/><nobr>OLDNAME . INMRKT . <span class="hint-domain">ML</span></nobr></span>
+                        <span>
+                            In case you just discovered we've moved, your <br/>
+                            project subdomain name is same as it was &nbsp;&#8211;&nbsp; <br/>
+                            <nobr>OLDNAME . INMRKT . <span class="hint-domain">ML</span></nobr>
+                        </span>
                     </div>
                     <div class="hint-just">
                         <!-- <br class="mob-present"/><br class="mob-present"/> -->
-                        <span>Whether you cannot get access to your project<br/> should you have any other kind of questions<br/> and to request for a specific information</span><br class="mob-present"/><br class="mob-present"/>
+                        <span>
+                            Whether you cannot get access to your project<br/> 
+                            should you have any other kind of questions<br/> 
+                            and to request for a specific information
+                        </span>
+                        <br class="mob-present"/>
+                        <br class="mob-present"/>
                         <span>Just send a message</span>
                     </div><br/>
                 </div>
