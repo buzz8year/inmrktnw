@@ -27,11 +27,11 @@ if (!empty($_POST['email']) && !empty($_POST['message'])) {
 
     if (@mail($to_gmail, $subject, $message, $headers)) {
 
-        $json['response'] = 'Message sent, thank you! We would greatly appreciate it if you give us about 24 hours to respond.';
+        $json['response'] = 'Message sent, thank you! We would greatly appreciate it if you give us about 24 hours to respond. <br/>' . $from;
 
     } else {
 
-        $json['response'] = 'Message not sent.';
+        $json['response'] = 'Message not sent. <br/>' . $from;
 
     }
 
