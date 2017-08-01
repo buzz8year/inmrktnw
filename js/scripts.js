@@ -141,7 +141,7 @@ function submitForm(contactform) {
                     inmail.classList.add('error-padd');
                     setTimeout(function(){
                         inmail.classList.remove('error-padd');
-                    }, 100);
+                    }, 400);
                 }
                 if (json['error']['error_message']) {
                     inmess.placeholder = json['error']['error_message'];
@@ -149,7 +149,7 @@ function submitForm(contactform) {
                     inmess.classList.add('error-padd');
                     setTimeout(function(){
                         inmess.classList.remove('error-padd');
-                    }, 100);
+                    }, 400);
                 }
 
             } else {

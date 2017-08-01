@@ -333,10 +333,10 @@ b {
     vertical-align: bottom;
     text-align: left;
     position: relative;
-    font-weight: 100;
-    /*letter-spacing: -3;*/
+    font-weight: 300;
+    letter-spacing: -3;
     width: 100%;
-    font-size: 60px;
+    font-size: 59px;
     color: #777;
     margin: 10vh 0 0;
     /*text-shadow: 5px 5px 0 rgba(0,0,0,.0);*/
@@ -350,12 +350,26 @@ b {
     float: right;
     /*top: -5px;*/
 }
+/*.main-title .name:before {
+    content: '\'';
+    position: absolute;
+    top: -3px;
+    left: 41px;
+    margin-top: 0.5px;
+    display: block;
+    background-color: #777;
+    border-radius: 2px;
+    height: 12px;
+    width: 3px;
+    transform: rotate(46deg) translate(0);
+}*/
 .main-title .logo {
-    width: 76px;
-    height: 44px;
+    width: 56px;
+    height: 42px;
     display: inline-block;
     position: relative;
-    margin: 0 -18px 1px -2px;
+    overflow: hidden;
+    margin: 0 -10px 0 -2px;
 }
 .main-title .logo:before {
     content: '';
@@ -363,27 +377,20 @@ b {
     display: block;
     background: url(../svg/switch-ok.svg) top no-repeat;
     background-size: 100%;
-    height: 45px;
-    width: 75px;
+    height: 47px;
+    width: 67px;
     /*transform: rotateX(180deg) translateX(14px);*/
 }
 .main-title .logo:after {
     content: '';
     display: none;
-    width: 8px;
-	height: 0;
-	border-left: 1.5px solid transparent;
-	border-right: 1.5px solid transparent;
-	border-top: 5px solid #fff;
-    /*height: 5px;*/
-    /*width: 24px;*/
-    /*border-radius: 3px;*/
-    box-shadow: 0 -1px 0 0 rgba(255,255,255,0.3);
-    border-image: inherit;
-    left: 65%;
-    overflow: visible;
-    top: 0;
-    margin: 1px 2px 0 -6px;
+    width: 34px;
+	height: 34px;
+    background: #888;
+    border-radius: 50%;
+    z-index: -1;
+    left: 4px;
+    top: 5px;
     position: absolute;
 }
 .main-title .telegram, .main-title .whatsapp, .main-title .viber {
@@ -413,9 +420,9 @@ b {
 .messenger-icon.icon-color span:before {
     filter: grayscale(0.6);
 }
-.messenger-icon span:before {
+/*.messenger-icon span:before {
     filter: grayscale(1);
-}
+}*/
 .main-title .telegram {
     background-image: url(../svg/telegram.svg);
 }
@@ -435,7 +442,7 @@ b {
     text-align: left;
     font-weight: 100;
     /*color: #fff;*/
-    font-size: 22px;
+    font-size: 19px;
     /*text-shadow: 5px 5px 0 rgba(0,0,0,.1);*/
 }
 .mail-wrap {
@@ -766,11 +773,12 @@ b {
     border: none;
     border-top: 1px dashed #aaa;
     border-bottom: 1px dashed #aaa;
-    color: #fff;
+    color: #777;
     padding: 40px 20px;
     font-size: 21px;
     font-family: 'titillium web';
     font-weight: 200;
+    outline: none;
     /*margin: 0 0 1.5vw;*/
     height: 40px;
     width: 100%;
@@ -793,18 +801,21 @@ b {
     resize:  none;
     overflow: hidden;
     padding: 24px 20px;
-    transition: ease-in-out .1s padding, ease-in .1s box-shadow,  .5s height;
+    transition: .4s height;
 }
 .contact-form textarea.l {
     height: 310px;
 }
 .contact-form input.error, .contact-form textarea.error {
-    /*background: rgba(255,255,255,.01);*/
+    background: rgba(100,100,100,.05);
+    /*border-top-color: #c44;*/
 }
 .contact-form .error-padd {
     /*box-shadow: inset 0 1px 0 #fff;*/
-    border-top-color: #fff;
-    padding-left: 30px;
+    background: rgba(200,100,100,.15)!important;
+    transition: ease-out .2s background-color;
+    /*border-top-color: #c44;*/
+    /*padding-left: 30px;*/
 }
 .contact-form textarea:focus, .contact-form input:focus, .contact-form textarea:active, .contact-form input:active {
     /*border-top-color: rgba(0, 150, 200, 1);*/
@@ -982,12 +993,12 @@ and (orientation : portrait) {
     }
     .main-title .logo {
         height: 60px;
-        width: 100px;
+        width: 79px;
     }
     .main-title .logo:before {
-        width: 98px;
+        width: 94px;
         height: 60px;
-        margin-top: 2px;
+        margin-top: 4px;
     }
     .main-title .logo-wrap {
         width: 100%;
@@ -997,7 +1008,11 @@ and (orientation : portrait) {
         width: 100%;
         float: none;
         text-align: center;
-        top: -18px;
+        top: 20px;
+        margin-bottom: 65px;
+    }
+    .main-title div.messenger-wrap a {
+        margin: 0 15px;
     }
     .moto-wrap {
         letter-spacing: .1;
@@ -1022,7 +1037,7 @@ and (orientation : portrait) {
         /*padding: 30px;*/
         width: 60%;
         text-align: center;
-        margin: 12vh 20%;
+        margin: 18vh 20% 10vh;
         /*top: 30vh;*/
     }
     .thank-wrap {
@@ -1033,6 +1048,8 @@ and (orientation : portrait) {
         background: transparent;
         overflow: visible;
         color: #888;
+        font-size: 40px;
+        line-height: 50px;
     }
     .info-wrap .info-text {
         width: 100%;
@@ -1051,10 +1068,11 @@ and (orientation : portrait) {
         top: 940px;
     }
     .hint-wrap .hint-name {
-        font-size: 19px;
+        font-size: 26px;
         margin-bottom: 50px;
     }
     .hint-wrap div.hint-just {
+        font-size: 26px;
         min-width: 0;
         float: none;
         text-align: center;
@@ -1068,13 +1086,13 @@ and (orientation : portrait) {
     }
     .button-wrap span {
         padding: 20px 40px;
-        font-size: 24px;
+        font-size: 36px;
         float: none;
         border-width: 2px;
         left: 50%!important;
         border: none;
         color: #fff;
-        border-radius: 40px;
+        border-radius: 50px;
         /*padding: 12px 30px;*/
         /*background: rgba(0,150,130,1);*/
         background: linear-gradient(45deg, rgba(55,150,225,.95) 30%, #00c2c9);
@@ -1116,11 +1134,16 @@ and (orientation : portrait) {
         text-align: center;
     }
     .contact-form textarea, .contact-form input {
-        font-size: 
+        -webkit-appearance: none;
+        border: none;
+        border-top: 3px dashed #aaa;
+    }
+    .contact-form textarea {
+        border-bottom: 3px dashed #aaa;
     }
     #hamburger {
         right: auto;
-        top: 900px;
+        top: 1000px;
         left: 50%;
         transform: translate(-50%) scale(.75);
     }

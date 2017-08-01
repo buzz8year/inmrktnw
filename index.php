@@ -5,6 +5,9 @@
 
         <link href="https://fonts.googleapis.com/css?family=Advent+Pro:100,200,300,400,500,600,700" rel="stylesheet" type="text/css"/>
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Palanquin:100,200,300,400,500,600,700" rel="stylesheet" type="text/css"/>
 
         <link href="css/cbut.css" rel="stylesheet" type="text/css"/>
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
@@ -23,7 +26,7 @@
 
             <div class="top-wrap">
                 <div class="manage">
-                    <a href="skype:live:inmrkt?chat" title="Chat in Skype" class="messenger-icon"><span></span> live:inmrkt</a>
+                    <a href="skype:kostin.dns?chat" title="Chat in Skype" class="messenger-icon"><span></span> live:inmrkt</a>
                 </div>
                 <!-- <div class="manage"><a>&#8801; &nbsp; Manage your project</a></div> -->
                 <!-- <span style="font-size:18px;position:relative;top:-1px">&#8902;</span> &nbsp;  -->
