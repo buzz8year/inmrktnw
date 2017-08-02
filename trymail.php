@@ -26,7 +26,7 @@ $headers .= 'Bcc: birthdaycheck@example.com' . "\r\n";
 $mail = mail($to, $subject, $message);
 
 if ($mail) {
-
+	echo('Sent!');
 } else {
 	var_dump(error_get_last());
 }
