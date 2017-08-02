@@ -24,7 +24,7 @@ $headers .= 'From: Birthday Reminder <info@inmrkt.ml>' . "\r\n";
 $mail = mail($to, $subject, $message, $headers);
 
 if (mail($to, $subject, $message, $headers)) {
-	echo('Sent!');
+	echo($to . '<br/>' . $subject . '<br/>' . $message . '<br/>' . $headers);
 } else {
 	var_dump(error_get_last());
 }
