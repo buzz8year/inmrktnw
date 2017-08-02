@@ -6,7 +6,7 @@ $to  = 'dk.pochtamp@gmail.com'; // note the comma
 // $to .= 'wez@example.com';
 
 // subject
-$subject = 'Birthday Reminders for August';
+$subject = 'Mail debugging';
 
 // message
 $message = 'Hello!';
@@ -16,16 +16,14 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
 // Additional headers
-$headers .= 'To: Mary <mary@example.com>, Kelly <kelly@example.com>' . "\r\n";
-$headers .= 'From: Birthday Reminder <birthday@example.com>' . "\r\n";
-$headers .= 'Cc: birthdayarchive@example.com' . "\r\n";
-$headers .= 'Bcc: birthdaycheck@example.com' . "\r\n";
+$headers .= 'To: Denis <dk.pochtamp@gmail.com>' . "\r\n";
+$headers .= 'From: Birthday Reminder <info@inmrkt.ml>' . "\r\n";
 
 // Mail it
 // mail($to, $subject, $message, $headers);
-$mail = mail($to, $subject, $message);
+$mail = mail($to, $subject, $message, $headers);
 
-if ($mail) {
+if (mail($to, $subject, $message, $headers)) {
 	echo('Sent!');
 } else {
 	var_dump(error_get_last());
