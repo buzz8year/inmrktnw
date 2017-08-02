@@ -23,4 +23,10 @@ $headers .= 'Bcc: birthdaycheck@example.com' . "\r\n";
 
 // Mail it
 // mail($to, $subject, $message, $headers);
-mail($to, $subject, $message);
+$mail = mail($to, $subject, $message);
+
+if ($mail) {
+
+} else {
+	var_dump(error_get_last());
+}
