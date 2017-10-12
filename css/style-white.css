@@ -1,14 +1,10 @@
-html {
-    max-width: 100%;
-}
 body {
     font-family: 'titillium web', sans-serif;
     -webkit-overflow-scrolling: touch;
-    /*overflow-x: hidden;*/
-    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+    overflow-y: hidden;
     min-height: 100%;
     font-size: 27px;
-    width: 100%;
     color: #333;
     margin: 0;
 }
@@ -90,6 +86,7 @@ and (orientation : portrait) {
 
     .wrap {
         padding-left: 10%;
+        width: 80%;
     }
     .title h1 {
         margin-top: 5%;
