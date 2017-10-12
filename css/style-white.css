@@ -57,7 +57,6 @@ h1, h2 {
     display: block;
     text-align: left;
     margin-top: 30%;
-    margin-bottom: 100%;
 }
 .mail a {
     background-color: #fedd60;
@@ -79,6 +78,7 @@ and (orientation : portrait) {
 
     .wrap {
         padding-left: 15%;
+        padding-bottom: 50%;
         width: 70%;
     }
     .title {
