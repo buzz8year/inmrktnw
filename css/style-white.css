@@ -36,6 +36,7 @@ h1, h2 {
 	font-family: 'sacramento', sans-serif;
     font-weight: 100;
     font-size: 100px;
+    line-height: 100px;
 }
 
 
@@ -84,8 +85,11 @@ and (orientation : portrait) {
     .title {
         margin-top: 5%;
     }
+    .title h1 {
+        line-height: 100px;
+    }
     .mail {
-        margin-top: 25%;
+        margin-top: 30%;
     }
     .idea br {
         display: none;
