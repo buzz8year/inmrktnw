@@ -1,49 +1,82 @@
+html {
+    max-width: 100%;
+}
 body {
     font-family: 'titillium web', sans-serif;
     -webkit-overflow-scrolling: touch;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    padding-left: 30%;
+    /*overflow-x: hidden;*/
+    /*overflow-y: hidden;*/
     min-height: 100%;
     font-size: 27px;
     width: 100%;
-    height: 100%;
     color: #333;
+    margin: 0;
 }
+
+
+
 a, a:hover, a:focus {
     text-decoration: none;
     color: #333;
 }
 h1, h2 {
     display: block;
+    margin: 0;
+}
+
+
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    padding-left: 30%;
+    width: 40%;
+}
+
+
+
+.title {
+    display: block;
+    position: relative;
+    width: 250px;
+    text-align: left;
+    margin: 20% 0 0;
 }
 .title h1 {
 	font-family: 'sacramento', sans-serif;
-    position: relative;
-    text-align: left;
     font-weight: 100;
     font-size: 100px;
-    margin: 20% 0 0;
-    width: 250px;
 }
-h2.mail a {
 
-    background-color: #fedd60;
-    padding: 5px 20px 6px;
+
+
+.idea {
+    display: block;
     position: relative;
-    border-radius: 4px;
     text-align: left;
-    font-weight: 300;
-    font-size: 20px;
-    z-index: 10;
-    color: #333;
-    top: 10%;
 }
 .idea h2 {
     word-spacing: 5px;
-    text-align: left;
     font-weight: 300;
     font-size: 20px;
+}
+
+
+
+.mail {
+    position: relative;
+    text-align: left;
+    top: 15%;
+}
+.mail a {
+    background-color: #fedd60;
+    padding: 5px 20px 6px;
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: 20px;
+    color: #333;
 }
 
 
@@ -55,8 +88,9 @@ and (min-width : 0)
 and (max-width : 1360px)
 and (orientation : portrait) {
 
-    body {
+    .wrap {
         padding-left: 15%;
+        width: 70%;
     }
     .title h1 {
         margin-top: 5%;

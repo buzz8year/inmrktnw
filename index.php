@@ -16,19 +16,21 @@
 
     <body>
 
-        <div class="title">
-            <h1>inmrkt</h1><br/>
-        </div>
+        <div class="wrap">
 
-        <div class="idea">
-            <h2>Designing the core of webapps & developing <br/>interactive functionality for any <br/>kind of business.</h2>
-        </div>
+            <div class="title">
+                <h1>inmrkt</h1>
+            </div>
 
-        <h2 class="mail">
-            <a href="mailto:info@inmrkt.ml?subject=Informational support. INMRKT" target="_blank">
-                <span>info @inmrkt . ml</span>
-            </a>
-        </h2>
+            <div class="idea">
+                <h2>Designing the core of webapps & developing <br/>interactive functionality for any <br/>kind of business.</h2>
+            </div>
+
+            <div class="mail">
+                <h2> <a href="mailto:info@inmrkt.ml?subject=Informational support. INMRKT" target="_blank"> info @inmrkt . ml </a> </h2>
+            </div>
+
+        </div>
 
     </body>
 
