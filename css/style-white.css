@@ -54,9 +54,9 @@ h1, h2 {
 
 .mail {
     width: 100%;
-    position: relative;
+    display: block;
     text-align: left;
-    top: 15%;
+    margin-top: 30%;
     margin-bottom: 100%;
 }
 .mail a {
