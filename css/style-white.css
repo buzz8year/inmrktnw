@@ -1,5 +1,6 @@
 body {
     font-family: 'titillium web', sans-serif;
+    -webkit-overflow-scrolling: touch;
     overflow-x: hidden;
     overflow-y: hidden;
     padding-left: 30vw;
