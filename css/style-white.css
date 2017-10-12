@@ -79,7 +79,7 @@ and (orientation : portrait) {
 
     .wrap {
         padding-left: 15%;
-        padding-bottom: 30%;
+        padding-bottom: 15%;
         width: 70%;
     }
     .title {
