@@ -2,10 +2,10 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%) scale(.75);
-    top: 61vh;
+    top: 62.5vh;
     cursor: pointer;
     /*transition: .4s opacity;*/
-    /*opacity: .4;*/
+    opacity: .15;
 }
 
 /*#hamburger.button-opacity {
@@ -220,7 +220,7 @@
 .burger-bun-top, .burger-bun-bot, .burger-filling {
   position: absolute;
   display: block;
-  height: 1px;
+  height: 2px;
   width: 36px;
   /*border-radius: 2px;*/
   background: rgba(255,255,255,0);
@@ -260,7 +260,7 @@
           animation: bun-top-out .3s linear normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  background: #aaa;
+  background: #fff;
   /*background: rgba(255,255,255,0.15);*/
 }
 .hamburglar.is-open .burger-bun-bot {
@@ -268,7 +268,7 @@
           animation: bun-bot-out .3s linear normal;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  background: #aaa;
+  background: #fff;
   /*background: rgba(255,255,255,0.15);*/
 }
 
@@ -481,6 +481,9 @@
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
+}
+.hamburglar.is-open {
+  z-index: 10;
 }
 .hamburglar.is-open .burger-filling {
   -webkit-animation: burger-fill-out .3s linear normal;

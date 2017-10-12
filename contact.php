@@ -44,7 +44,7 @@ if (!empty($_POST['email']) && !empty($_POST['message'])) {
     }
 
     if (empty($_POST['message'])) {
-        $json['error']['error_message'] = 'Please, write a couple of words *';
+        $json['error']['error_message'] = 'Please, write at least a couple of words *';
     }
 
     $json['response'] = 'Data was not posted.';

@@ -1,30 +1,36 @@
 <?php
+require 'phpmailer/class.phpmailer.php';
 
-// multiple recipients
-$to  = 'dk.pochtamp@gmail.com'; // note the comma
-// $to  = 'dk.pochtamp@gmail.com' . ', '; // note the comma
-// $to .= 'wez@example.com';
+$mail = new PHPMailer;
 
-// subject
-$subject = 'Mail debugging';
+//$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-// message
-$message = 'Hello!';
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtp1.example.com;smtp2.example.com';  // Specify main and backup SMTP servers
+$mail->SMTPAuth = true;                               // Enable SMTP authentication
+$mail->Username = 'user@example.com';                 // SMTP username
+$mail->Password = 'secret';                           // SMTP password
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;                                    // TCP port to connect to
 
-// To send HTML mail, the Content-type header must be set
-// $headers  = 'MIME-Version: 1.0' . "\r\n";
-// $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+$mail->setFrom('from@example.com', 'Mailer');
+$mail->addAddress('joe@example.net', 'Joe User');     // Add a recipient
+$mail->addAddress('ellen@example.com');               // Name is optional
+$mail->addReplyTo('info@example.com', 'Information');
+$mail->addCC('cc@example.com');
+$mail->addBCC('bcc@example.com');
 
-// Additional headers
-// $headers .= 'To: Denis <dk.pochtamp@gmail.com>' . "\r\n";
-$headers = 'From: info@inmrkt.ml';
+$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+$mail->isHTML(true);                                  // Set email format to HTML
 
-// Mail it
-// mail($to, $subject, $message, $headers);
-$mail = mail($to, $subject, $message, $headers);
+$mail->Subject = 'Here is the subject';
+$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
+$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
-if (mail($to, $subject, $message, $headers)) {
-	echo($to . '<br/>' . $subject . '<br/>' . $message . '<br/>' . $headers);
+if(!$mail->send()) {
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-	var_dump(error_get_last());
+    echo 'Message has been sent';
 }

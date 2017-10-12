@@ -1,0 +1,58 @@
+body {
+    font-family: 'titillium web', sans-serif;
+    font-size: 27px;
+    color: #333;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    color: #333;
+}
+.title h1 {
+	font-family: 'sacramento', sans-serif;
+    text-align: left;
+    position: relative;
+    font-weight: 100;
+    font-size: 100px;
+    margin: 20vh 0 0 30vw;
+    line-height: 100px;
+    width: 250px;
+}
+/*.title h1:before {
+	content: '';
+	display: block;
+	z-index: 10;
+	position: absolute;
+	bottom: 69px;
+	left: -1px;
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	box-shadow: inset 0 0 0 2.5px #444, inset 0 0 0 10px #ffdb4d;
+}*/
+h2.mail a {
+	text-align: left;
+	font-weight: 300;
+    font-size: 20px;
+    top: 10vh;
+    left: 30vw;
+    z-index: 10;
+    position: relative;
+    background-color: #fedd60;
+    padding: 5px 20px 6px;
+    border-radius: 4px;
+    color: #333;
+}
+/*h2.mail small {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #555;
+}*/
+.idea h2 {
+    margin: 0vh 0 0;
+    padding-left: 30vw;
+    text-align: left;
+	font-weight: 300;
+    font-size: 20px;
+    word-spacing: 5px;
+}
