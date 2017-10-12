@@ -89,8 +89,7 @@ and (max-width : 1360px)
 and (orientation : portrait) {
 
     .wrap {
-        padding-left: 15%;
-        width: 70%;
+        padding-left: 10%;
     }
     .title h1 {
         margin-top: 5%;
