@@ -14,7 +14,6 @@ a, a:hover, a:focus {
 }
 h1, h2 {
     display: block;
-    float: left;
 }
 .title h1 {
 	font-family: 'sacramento', sans-serif;
@@ -23,7 +22,6 @@ h1, h2 {
     font-weight: 100;
     font-size: 100px;
     margin: 20vh 0 0;
-    display: block;
     width: 250px;
 }
 h2.mail a {
@@ -38,9 +36,6 @@ h2.mail a {
     z-index: 10;
     color: #333;
     top: 10vh;
-}
-.idea {
-    display: block;
 }
 .idea h2 {
     word-spacing: 5px;
