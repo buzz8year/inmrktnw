@@ -53,7 +53,7 @@ and (orientation : portrait) {
         margin-top: 5vh;
     }
     .idea {
-        padding-right: 15vw;
+        max-width: 70vw;
     }
     .idea br {
         display: none;
