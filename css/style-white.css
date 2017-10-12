@@ -30,7 +30,7 @@ h1, h2 {
 .title {
     width: 100%;
     text-align: left;
-    margin: 20% 0 0;
+    margin: 30% 0 0;
 }
 .title h1 {
 	font-family: 'sacramento', sans-serif;
@@ -56,7 +56,7 @@ h1, h2 {
     width: 100%;
     display: block;
     text-align: left;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 .mail a {
     background-color: #fedd60;
@@ -78,7 +78,7 @@ and (orientation : portrait) {
 
     .wrap {
         padding-left: 15%;
-        padding-bottom: 50%;
+        padding-bottom: 30%;
         width: 70%;
     }
     .title {
