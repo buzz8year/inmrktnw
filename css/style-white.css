@@ -84,6 +84,9 @@ and (orientation : portrait) {
     .title {
         margin-top: 5%;
     }
+    .mail {
+        margin-top: 25%;
+    }
     .idea br {
         display: none;
     }
