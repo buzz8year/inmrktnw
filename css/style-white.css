@@ -1,8 +1,12 @@
 body {
     font-family: 'titillium web', sans-serif;
-    font-size: 27px;
-    color: #333;
+    overflow-x: hidden;
+    overflow-y: hidden;
     padding-left: 30vw;
+    min-height: 100%;
+    font-size: 27px;
+    height: 100%;
+    color: #333;
 }
 a, a:hover, a:focus {
     text-decoration: none;
@@ -10,32 +14,30 @@ a, a:hover, a:focus {
 }
 .title h1 {
 	font-family: 'sacramento', sans-serif;
-    text-align: left;
     position: relative;
+    text-align: left;
     font-weight: 100;
     font-size: 100px;
     margin: 20vh 0 0;
-    line-height: 100px;
     width: 250px;
 }
 h2.mail a {
-	text-align: left;
-	font-weight: 300;
-    font-size: 20px;
-    top: 10vh;
-    z-index: 10;
-    position: relative;
     background-color: #fedd60;
     padding: 5px 20px 6px;
+    position: relative;
     border-radius: 4px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
+    z-index: 10;
     color: #333;
+    top: 10vh;
 }
 .idea h2 {
-    margin: 0;
-    text-align: left;
-	font-weight: 300;
-    font-size: 20px;
     word-spacing: 5px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 
@@ -46,6 +48,8 @@ and (orientation : landscape), only screen
 and (min-width : 0)
 and (max-width : 1360px)
 and (orientation : portrait) {
+
+    min-height: 100%;
     body {
         padding-left: 15vw;
     }
@@ -58,4 +62,6 @@ and (orientation : portrait) {
     .idea br {
         display: none;
     }
+
+    min-height: 100%;
 }
