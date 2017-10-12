@@ -54,6 +54,7 @@ and (max-width : 1360px)
 and (orientation : portrait) {
 
     body {
+        overflow-x: hidden;
         padding-left: 15vw;
     }
     .title h1 {
