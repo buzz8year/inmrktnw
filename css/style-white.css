@@ -1,7 +1,5 @@
 body {
     font-family: 'titillium web', sans-serif;
-    /*overflow-x: hidden;*/
-    /*overflow-y: hidden;*/
     min-height: 100%;
     font-size: 27px;
     color: #333;
@@ -21,12 +19,8 @@ h1, h2 {
 
 
 .wrap {
-    display: block;
-    position: relative;
     float: left;
     height: 100%;
-    /*overflow-y: hidden;*/
-    /*overflow-x: hidden;*/
     padding-left: 30%;
     width: 40%;
 }
@@ -63,6 +57,7 @@ h1, h2 {
     position: relative;
     text-align: left;
     top: 15%;
+    margin-bottom: 30%;
 }
 .mail a {
     background-color: #fedd60;
@@ -83,8 +78,8 @@ and (max-width : 1280px)
 and (orientation : portrait) {
 
     .wrap {
-        padding-left: 10%;
-        width: 80%;
+        padding-left: 15%;
+        width: 70%;
     }
     .title {
         margin-top: 5%;
