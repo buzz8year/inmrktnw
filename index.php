@@ -11,7 +11,7 @@
 
         <link href="css/style-white.css" rel="stylesheet" type="text/css"/>
 
-        <title>INMRKT</title>
+        <title>inmrkt.</title>
     </head>
 
     <body>
