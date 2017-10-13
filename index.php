@@ -27,7 +27,7 @@
             </div>
 
             <div class="mail">
-                <h2> <a href="mailto:info@inmrkt.ml?subject=Informational support. INMRKT" target="_blank"> info @inmrkt . ml </a> </h2>
+                <h2> <a href="mailto:info@inmrkt.ml?subject=Informational support. INMRKT" target="_blank"> info@inmrkt . ml </a> </h2>
             </div>
 
         </div>
