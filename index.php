@@ -23,7 +23,7 @@
             </div>
 
             <div class="idea">
-                <h2>Designing the core of webapps & developing <br/>interactive functionality for any <br/>kind of business.</h2>
+                <h2>Designing the core of webapps & developing <br/>interactive functionality for any <br/>type of business.</h2>
             </div>
 
             <div class="mail">
