@@ -1,3 +1,4 @@
+
 <html>
     <head>
         <meta charset="utf-8"/>
@@ -26,8 +27,14 @@
                 <h2>Designing the core of webapps & developing <br/>interactive functionality for any <br/>type of business.</h2>
             </div>
 
-            <div class="mail">
-                <h2> <a href="mailto:info@inmrkt.ml?subject=Informational support. INMRKT" target="_blank"> info@inmrkt . ml </a> </h2>
+            <div class="mail" id="mail">
+                <h2> 
+                    <!-- <a href="mailto:info@inmrkt.ml?subject=Informational support. INMRKT" target="_blank"> -->
+                    <a>
+                        <span class="mail-to"> info@inmrkt . info </span>
+                        <input type="text" name="mail-from" class="mail-from" placeholder="Please, enter you e-mail..." />
+                    </a>
+                </h2>
             </div>
 
         </div>
@@ -35,3 +42,18 @@
     </body>
 
 </html>
+
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script> -->
+<!-- <script src="js/three.js"></script> -->
+<!-- <script src="js/space.js"></script> -->
+
+<script type="text/javascript">
+    // var mail = document.getElementById('mail');
+    // mail.addEventListener('click', function(){
+    //     if (mail.classList.contains('open')) {
+    //         // mail.classList.remove('open');
+    //     } else {
+    //         mail.classList.add('open');
+    //     }
+    // });
+</script>

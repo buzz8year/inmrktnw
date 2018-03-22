@@ -1,0 +1,48 @@
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+
+{"affected_rows":null,"client_info":null,"client_version":null,"connect_errno":null,"connect_error":null,"errno":null,"error":null,"error_list":null,"field_count":null,"host_info":null,"info":null,"insert_id":null,"server_info":null,"server_version":null,"stat":null,"sqlstate":null,"protocol_version":null,"thread_id":null,"warning_count":null}
+{"category_id":"65","image":"catalog\/category-img\/k1.jpg","parent_id":"0","top":"1","column":"4","sort_order":"0","status":"1","date_added":"2016-11-07 13:01:39","date_modified":"2016-11-11 16:32:16"}
+

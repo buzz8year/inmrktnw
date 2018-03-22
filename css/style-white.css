@@ -58,15 +58,66 @@ h1, h2 {
     display: block;
     text-align: left;
     margin-top: 20%;
+    /*background-color: #eee;*/
 }
 .mail a {
     background-color: #fedd60;
     padding: 5px 20px 6px;
     border-radius: 4px;
     font-weight: 300;
+    min-width: 100px;
+    min-height: 20px;
     font-size: 20px;
     color: #333;
+    display: inline-block;
+    transition: .5s all;
+    position: relative;
 }
+.mail.open a {
+    min-width: 100%;
+    min-height: 250px;
+}
+.mail .mail-to {
+    position: relative;
+    transition: .5s;
+    top: 0;
+}
+.mail.open .mail-to {
+    color: rgba(0,0,0,.4);
+    /*right: 25px;*/
+    top: 210px;
+    /*font-size: 36px;*/
+    /*position: absolute;*/
+    /*font-weight: bold;*/
+}
+input.mail-from {
+    z-index: -10;
+    opacity: 0;
+    position: absolute;
+    width: 145px;
+    left: 20px;
+    transition: .5s;
+    top: -30px;
+    background-color: transparent;
+    padding: 7px 0;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+input.mail-from:focus {
+    outline: none;
+}
+.mail.open .mail-from {
+    z-index: 10;
+    opacity: 1;
+    top: 40px;
+}
+::-webkit-input-placeholder {
+    font-family: 'titillium web', sans-serif;
+    font-size: 16px;
+    color: rgba(0,0,0,.4);
+};
 
 
 @media only screen
