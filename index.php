@@ -30,10 +30,9 @@
             <div class="mail" id="mail">
                 <h2> 
                     <a href="mailto:info@inmrkt.work?subject=Informational Support" target="_blank">
-                    <!-- <a>
                         <span class="mail-to"> info @ inmrkt.work </span>
                         <input type="text" name="mail-from" class="mail-from" placeholder="Please, enter you e-mail..." />
-                    </a> -->
+                    </a>
                 </h2>
             </div>
 
